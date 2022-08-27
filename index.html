@@ -5,362 +5,409 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- Red Rose Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <!-- Dela Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
 </head>
 
 <body>
-    <div class="container">
-        <section aria-label="navbar">
-            <nav class="navbar">
-                <div>
-                    <img src="./assets/logo.png" alt="logo" class="logo" />
+    <div class="wrapper">
+        <div class="container">
+            <!-- Navbar -->
+            <nav>
+                <div class="brandLogo">
+                    <img src="./Assets/Logo.png" alt="Img " />
                 </div>
-                <div>
-                    <ul class="list">
-                        <li class="list-item">Home</li>
-                        <li class="list-item">Domain</li>
-                        <li class="list-item">Hosting</li>
-                        <li class="list-item">Feature</li>
-                        <li class="list-item">Pricing</li>
-                        <li class="list-item">About Us</li>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Domain</a></li>
+                    <li><a href="/">Hosting</a></li>
+                    <li><a href="/">Features</a></li>
+                    <li><a href="/">Pricing</a></li>
+                    <li><a href="/">About Us</a></li>
+                    <button>Register Now</button>
+                    <li class="menu"><i class="fas fa-bars"></i></li>
+                </ul>
+            </nav>
+
+            <!-- First part-->
+            <div class="imageWithTextSection">
+                <div class="imageWithTextBox">
+                    <div class="marginBox">
+                        <div class="imageBox">
+                            <img src="./Assets/server-control-panel-hosting-software-vector-illustration_116137-337.jpg"
+                                alt="Img" />
+                        </div>
+                        <div class="contentBox">
+                            <h2>Great Websites start with unlimited Hosting</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis provident commodi
+                                libero quasi sunt qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                                provident commodi libero quasi sunt qui?
+                            </p>
+                            <button>Choose Package</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="imageWithTextBox">
+                    <div class="marginBox specialBox">
+                        <div class="imageBox">
+                            <img src="./Assets/second-image.png" alt="Img" />
+                        </div>
+                        <div class="contentBox">
+                            <h2>We Provide the best Quality with Low Cost</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam vel commodi, ducimus
+                                labore recusandae dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Debitis provident commodi libero quasi sunt qui?
+                            </p>
+                            <button>Choose Package</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="imageWithTextBox">
+                    <div class="marginBox">
+                        <div class="imageBox">
+                            <img src="./Assets/technical support illustration-01.svg" alt="Img" />
+                        </div>
+                        <div class="contentBox">
+                            <h2>Number 1 Technical support in Indonesia</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsum aliquam totam eius
+                                tenetur obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+                                provident commodi libero quasi sunt qui?
+                            </p>
+                            <button>Choose Package</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Services part -->
+            <div class="ourServicesSection">
+                <!-- Head Section -->
+                <div class="ourServiceHead">
+                    <h2>Services we provide At ThorHosting</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo iusto nos adipisicing elit.
+                        Explicabo iusto nostrum exercitationem maiores ipsam cumque.
+                    </p>
+                </div>
+
+                <div class="mainBox">
+                    <div class="servicesBoxes">
+                        <div class="marginBox">
+                            <div class="imageBox">
+                                <img src="./Assets/Cloud.png" alt="Img" />
+                            </div>
+                            <div class="contentBox">
+                                <h2>Unlimited Hosting</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dicta ipsa
+                                    temporibus laborum ullam veritatis?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="servicesBoxes">
+                        <div class="marginBox">
+                            <div class="imageBox">
+                                <img src="./Assets/Cloud.png" alt="Img" />
+                            </div>
+                            <div class="contentBox">
+                                <h2>Cloud Hosting</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dicta ipsa
+                                    temporibus laborum ullam veritatis?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="servicesBoxes">
+                        <div class="marginBox">
+                            <div class="imageBox">
+                                <img src="./Assets/Cloud.png" alt="Img" />
+                            </div>
+                            <div class="contentBox">
+                                <h2>Wordpress Hosting</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dicta ipsa
+                                    temporibus laborum ullam veritatis?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="servicesBoxes">
+                        <div class="marginBox">
+                            <div class="imageBox">
+                                <img src="./Assets/Cloud.png" alt="Img" />
+
+                            </div>
+                            <div class="contentBox">
+                                <h2>Fastest VPS</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dicta ipsa
+                                    temporibus laborum ullam veritatis?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="servicesBoxes">
+                        <div class="marginBox">
+                            <div class="imageBox">
+                                <img src="./Assets/Cloud.png" alt="Img" />
+
+                            </div>
+                            <div class="contentBox">
+                                <h2>Domain</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dicta ipsa
+                                    temporibus laborum ullam veritatis?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="servicesBoxes">
+                        <div class="marginBox">
+                            <div class="imageBox">
+                                <img src="./Assets/Cloud.png" alt="Img" />
+
+                            </div>
+                            <div class="contentBox">
+                                <h2>Website Builder</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum dicta ipsa
+                                    temporibus laborum ullam veritatis?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing Part -->
+        <div class="pricingSection">
+            <h2>Flexible & Transparent Pricing</h2>
+
+            <div class="container">
+                <div class="priceBoxSection">
+                    <div class="priceBox">
+                        <div class="priceMarginBox">
+                            <div class="priceHead">
+                                <h2>Starter Pack</h2>
+                                <p>Suitable for Beginners</p>
+                            </div>
+                            <ul>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Up to 15,000 Visitors/Month
+                                </li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Disk Space 500 MB</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited Bandwidth</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited Database</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> 1 Domain</li>
+                            </ul>
+                            <div class="selectPlanSection">
+                                <h2>$29.99<span>/Month</span></h2>
+                                <h4>Cancel Anytime</h4>
+                                <button>Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="priceBox">
+                        <div class="priceMarginBox">
+                            <div class="priceHead active">
+                                <h2>Popular Package</h2>
+                                <p>Suitable for Comapany</p>
+                            </div>
+                            <ul>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Up to 1,35,000
+                                    Visitors/Month</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlmited Disk Space</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited Bandwidth</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited POP3 Mail</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited Database</li>
+                            </ul>
+                            <div class="selectPlanSection active">
+                                <h2>$59.99<span>/Month</span></h2>
+                                <h4>Cancel Anytime</h4>
+                                <button>Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="priceBox">
+                        <div class="priceMarginBox">
+                            <div class="priceHead">
+                                <h2>Business Package</h2>
+                                <p>Suitable Busisness Websites</p>
+                            </div>
+                            <ul>
+
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Up to 1,80,000
+                                    Visitors/Month</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited Disk Space</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited Bandwidth</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited POP3 Mail</li>
+                                <li><img src="./assets/check-circle-svgrepo-com.svg" alt=""> Unlimited Database</li>
+                            </ul>
+                            <div class="selectPlanSection">
+                                <h2>$99.99<span>/Month</span></h2>
+                                <h4>Cancel Anytime</h4>
+                                <button>Choose Plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Customer part -->
+
+        <div class="container">
+            <div class="customerFeedBackSection">
+                <div class="heading">
+                    <h2>Our Customer Loves Us</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum delectus ratione quasi earum
+                        soluta, deserunt, sed accusantium suscipit neque animi facere nostrum vitae, ut necessitatibus.
+                    </p>
+                </div>
+
+                <div class="mainFeedBackBox">
+                    <div class="boxes">
+                        <div class="marginBox">
+                            <div class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur.
+                                Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio
+                                pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit
+                                aliquid?
+                            </div>
+                            <div class="bio">
+                                <div class="leftBox">
+                                    <img src="./assets/circle.png" alt="Img" />
+                                </div>
+                                <div class="rightBox">
+                                    <h2>Michal Andrew</h2>
+                                    <h4>CEO Apple Inc.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <div class="marginBox">
+                            <div class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur.
+                                Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio
+                                pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit
+                                aliquid?
+                            </div>
+                            <div class="bio">
+                                <div class="leftBox">
+                                    <img src="./assets/circle.png" alt="Img" />
+                                </div>
+                                <div class="rightBox">
+                                    <h2>Michal Andrew</h2>
+                                    <h4>CEO Apple Inc.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <div class="marginBox">
+                            <div class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur.
+                                Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio
+                                pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit
+                                aliquid?
+                            </div>
+                            <div class="bio">
+                                <div class="leftBox">
+                                    <img src="./assets/circle.png" alt="Img" />
+                                </div>
+                                <div class="rightBox">
+                                    <h2>Michal Andrew</h2>
+                                    <h4>CEO Apple Inc.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <div class="marginBox">
+                            <div class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur.
+                                Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio
+                                pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit
+                                aliquid?
+                            </div>
+                            <div class="bio">
+                                <div class="leftBox">
+                                    <img src="./assets/circle.png" alt="Img" />
+                                </div>
+                                <div class="rightBox">
+                                    <h2>Michal Andrew</h2>
+                                    <h4>CEO Apple Inc.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HighLight Part -->
+        <div class="highLightSection">
+            <div class="container">
+                <div class="leftBox">
+                    <h2>Quit Worrying about Once-Hosting Services</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nesciunt fugiat mag
+                        adipisicing elit. Reiciendis nesciunt fugiat magni.
+                    </p>
+                </div>
+            </div>
+            <div class="rightBox">
+                <button>Register Now</button>
+            </div>
+        </div>
+
+        <!-- Footer Part -->
+        <div class="container">
+            <footer>
+                <div class="footerLogo">
+                    <img src="./Assets/logo.png" alt="Img" />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, voluptatum. Quaerat
+                        quisquam porro a repudiandae.
+                    </p>
+                </div>
+                <div class="middleBox">
+                    <ul>
+                        <h2>Menu</h2>
+                        <li>Home</li>
+                        <li>Covid19</li>
+                        <li>Vaccine Info</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    <ul>
+                        <h2>Links</h2>
+                        <li>Partenrs</li>
+                        <li>Carrers</li>
+                        <li>Press</li>
+                        <li>Community</li>
+                    </ul>
+                    <ul>
+                        <h2>Overview</h2>
+
+                        <li>Terms & Condition</li>
+                        <li>Privacy Policy</li>
+                        <li>FAQ</li>
                     </ul>
                 </div>
-                <div>
-                    <button class="button-small">Register Now</button>
+                <div class="socialLinks">
+                    <h2>Social Media</h2>
+                    <img src="./Assets/social-links.png" alt="Img" />
                 </div>
-            </nav>
-        </section>
-        <div class="section1">
-            <div class="hero-1">
-                <div class="left">
-                    <div class="h-1">
-                        <h1>Great Websites Start with Unlimited Hosting</h1>
-                    </div>
-                    <p>We provide best offer of unlimited web hosting. The most complete feature, affordable prices,
-                        24/7 technical support are at your disposal.</p>
-                    <button class="btn">Choose Package</button>
-                </div>
-                <div class="right">
-                    <img src="./assets/server-control-panel-hosting-software-vector-illustration_116137-337.png"
-                        alt="Image-1" class="h-1">
-                </div>
-            </div>
-            <div class="hero-2">
-                <div class="left">
-                    <img src="./assets/hero-2.jpg" alt="Image-2" class="h-2">
-                </div>
-                <div class="right">
-                    <div class="h-2">
-                        <h1>We Provide The Best Quality With Low Cost</h1>
-                    </div>
-                    <p>You can have a ready-made website for only a small fee. Complete features will facilitate the
-                        website creation process, from Auto-Install WordPress, cPanel, to free SSL</p>
-                    <button class="btn">Read More</button>
-                </div>
-            </div>
-            <div class="hero-3">
-                <div class="left">
-                    <div class="h-3">
-                        <h1>Number 1 Technical Support in Indonesia</h1>
-                    </div>
-                    <p>Contact Niagahoster's Customer Success Agent at any time when there is a
-                        problem with your website. No need to wait long, your problem will be
-                        <br> resolved quickly and in real-time via Intercom's live-chat.
-                    </p>
-                    <button class="btn">Read More</button>
-                </div>
-                <div class="right">
-                    <img src="./assets/hero-3.jpg" alt="Image-3" class="h-3">
-                </div>
-            </div>
-            <div class="hero-4">
-                <div class="left">
-                    <h1>Services We Provide At ThorHosting</h1>
-                </div>
-                <div class="right">
-                    <p>Contact Niagahoster's Customer Success Agent at any time when there is a
-                        problem with your website. No need to wait long, your problem will be
-                        resolved quickly
-                    </p>
-                </div>
-            </div>
-            <div class="hero-5">
-                <!-- card-1 -->
-                <div class="card">
-                    <img src="./assets/hosting.png" alt="c-1" class="c-img">
-                    <h3>Unlimited Hosting</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit.</p>
-                </div>
-                <!-- card-2 -->
-                <div class="card">
-                    <img src="./assets/hosting.png" alt="c-2" class="c-img">
-                    <h3>Cloud Hosting</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit.</p>
-                </div>
-                <!-- card-3 -->
-                <div class="card c1">
-                    <img src="./assets/wordpress.png" alt="c-3" class="c-img">
-                    <h3>Wordpress Hosting</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit.</p>
-                </div>
-            </div>
-            <div class="hero-6">
-                <!-- card-4 -->
-                <div class="card c2">
-                    <img src="./assets/vps.png" alt="c-4" class="c-img">
-                    <h3>Fastest VPS</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit.</p>
-                </div>
-                <!-- card-5 -->
-                <div class="card">
-                    <img src="./assets/domain.png" alt="c-5" class="c-img">
-                    <h3>Domain</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit.</p>
-                </div>
-                <!-- card-6 -->
-                <div class="card">
-                    <img src="./assets/website.png" alt="c-6" class="c-img">
-                    <h3>Website Builder</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit.</p>
-                </div>
-            </div>
+            </footer>
         </div>
-        <div class="hero-7">
-            <h1 class="center">Flexible & Transparant Pricing </h1>
-            <div class="box">
-                <div class="header">
-                    <h3>Starter Pack</h3>
-                    <h3>Suitable for beginners</h3>
-                </div>
-                <div class="middle">
-                    <div class="checkbox">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                    </div>
-                    <div class="content">
-                        <h4>Up To 15,000 Visitors/Month</h4>
-                        <h4>Disk Space 500 MB</h4>
-                        <h4>Unlimited Bandwidth</h4>
-                        <h4>Unlimited Database</h4>
-                        <h4>1 Domain</h4>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="b1">
-                        <h1>$29.99 <span>/month</span></h1>
-                    </div>
-                    <div class="b2">
-                        <h1>Cancel Anytime</h1>
-                    </div>
-                    <div class="b3">
-                        
-                    <button class="btn">Choose Package</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="box">
-                <div class="header-active">
-                    <h3>Popular Package</h3>
-                    <h3>Suitable for company, organization</h3>
-                </div>
-                <div class="middle">
-                    <div class="checkbox">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                    </div>
-                    <div class="content">
-                        <h4>Up To 135,000 Visitors/Month</h4>
-                        <h4>Disk Space 500 MB</h4>
-                        <h4>Unlimited Bandwidth</h4>
-                        <h4>Unlimited Database</h4>
-                        <h4>1 Domain</h4>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="b1">
-                        <h1>$59.99 <span>/month</span></h1>
-                    </div>
-                    <div class="b2">
-                        <h1>Cancel Anytime</h1>
-                    </div>
-                    <div class="b3-active">
-                        
-                    <button class="btn">Choose Package</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="box">
-                <div class="header">
-                    <h3>Business Package</h3>
-                    <h3>Suitable for business websites</h3>
-                </div>
-                <div class="middle">
-                    <div class="checkbox">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                        <img src="./assets/check-circle-svgrepo-com.svg" alt="">
-                    </div>
-                    <div class="content">
-                        <h4>Up To 180,000 Visitors/Month</h4>
-                        <h4>Disk Space 500 MB</h4>
-                        <h4>Unlimited Bandwidth</h4>
-                        <h4>Unlimited Database</h4>
-                        <h4>1 Domain</h4>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="b1">
-                        <h1>$99.99 <span>/month</span></h1>
-                    </div>
-                    <div class="b2">
-                        <h1>Cancel Anytime</h1>
-                    </div>
-                    <div class="b3">
-                        
-                    <button class="btn">Choose Package</button>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-        <div class="hero-8">
-            <div class="h-11">
-                <h1>Our Customer Love Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aspernatur beatae dicta obcaecati, unde aliquid corporis mollitia quisquam, nesciunt illum accusamus dolorem suscipit. Voluptas, inventore!</p>
-            </div>
-            <!-- card-1 -->
-            <div class="card">
-                <div class="up">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur. Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit aliquid?</p>
-                </div>
-                <div class="down">
-                    <div class="no"></div>
-                    <h3 class="nam">Michael Andrew</h3>
-                    <p class="ceo">CEO Apple Inc.</p>
-                </div>
-            </div>
-            <!-- card-2 -->
-            <div class="card">
-                <div class="up">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur. Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit aliquid?</p>
-                </div>
-                <div class="down">
-                    <div class="no"></div>
-                    <h3 class="nam">Michael Andrew</h3>
-                    <p class="ceo">CEO Apple Inc.</p>
-                </div>
-            </div>
-            <!-- card-3 -->
-            <div class="card">
-                <div class="up">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur. Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit aliquid?</p>
-                </div>
-                <div class="down">
-                    <div class="no"></div>
-                    <h3 class="nam">Michael Andrew</h3>
-                    <p class="ceo">CEO Apple Inc.</p>
-                </div>
-            </div>
-            <!-- card-4 -->
-            <div class="card">
-                <div class="up">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nobis quibusdam pariatur. Fugit distinctio voluptates cum quidem omnis nisi non maiores a! Assumenda distinctio pariatur maiores exercitationem eos, ipsum, nobis corporis veniam consequuntur velit aliquid?</p>
-                </div>
-                <div class="down">
-                    <div class="no"></div>
-                    <h3 class="nam">Michael Andrew</h3>
-                    <p class="ceo">CEO Apple Inc.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- hero-8 -->
-        <div class="hero-9">
-            <div class="left">
-                <h1>Quit Worrying about <br> Oce-Hosting services</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id exercitationem mollitia animi nam voluptatum? Facere quam quia ratione aliquam provident!</p>
-            </div>
-            <div class="right">
-                <button class="btn">Register Now</button>
-            </div>
-        </div>
-
-        <!-- hero-9 -->
-        <footer class="content1">
-            <div class="f-1">
-                <img src="./assets/Logo.png" alt="LOGO" class="logo">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquid molestiae vitae doloribus dolores, voluptatibus temporibus.</p>
-            </div>
-            <div class="f-2">
-                <h4>Menu</h4>
-                <p><a href="#">Home</a></p>
-                <p><a href="#">Covid19</a></p>
-                <p><a href="#">Vaccine Info</a></p>
-                <p><a href="#">Contact Us</a></p>
-            </div>
-            <div class="f-3">
-                <h4>Links</h4>
-                <p><a href="#">Partners</a></p>
-                <p><a href="#">Careers</a></p>
-                <p><a href="#">Press</a></p>
-                <p><a href="#">Community</a></p>
-            </div>
-            <div class="f-4">
-                <h4>Overview</h4>
-                <p><a href="#">Terms & Condition</a></p>
-                <p><a href="#">Privacy Policy</a></p>
-                <p><a href="#">FAQ</a></p>
-            </div>
-            <div class="f-5">
-                <h4>Social Media</h4>
-                <div class="imgs">
-                    <div class="fb">FB</div>
-                    <div class="ig">IG</div>
-                    <div class="yt">YT</div>
-                    <div class="li">LI</div>
-                </div>
-            </div>
-        </footer>
     </div>
 </body>
-</html> 
+
+</html>
